@@ -13,6 +13,7 @@ config.json
 
 # Local instructions (not for GitHub)
 PUSH_TO_GITHUB.md
+SECURITY.md
 
 # Python
 __pycache__/
