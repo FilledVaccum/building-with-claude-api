@@ -1,0 +1,44 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+
+# API Keys and credentials
+**/credentials
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
