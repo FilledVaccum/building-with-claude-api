@@ -1,0 +1,11 @@
+[
+  {
+    "task": "Write a Python function that takes an AWS S3 bucket name and a file prefix as input, connects to S3 using boto3, and returns a list of all object keys that match the given prefix, along with their file sizes in a dictionary format like {'key': 'size'}."
+  },
+  {
+    "task": "Create a JSON object that represents a valid AWS IAM policy document which grants read-only access (GetObject, ListBucket) to a specific S3 bucket named 'my-company-data', while explicitly denying the ability to delete any objects from that same bucket."
+  },
+  {
+    "task": "Write a Python function using the `re` module that validates and parses an AWS ARN (Amazon Resource Name) string, extracting its components (partition, service, region, account-id, and resource) into a dictionary, and returns None if the ARN format is invalid."
+  }
+]
